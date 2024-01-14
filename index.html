@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.ico"/>
+    
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./css/styles.css"></link>
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+    />
+
+    <!-- ICON CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+
+    <!-- Link Owl Carousel CSS -->
+    <link rel="stylesheet" href="./css/carousel.css">
+
+</head>
+<body class="Portfolio-body">
+    
+    <!-- Start: navigation -->
+    <div class="text-bg-primary w-100 py-2 ps-5 pe-8 text-end">
+        <a href="javascript:void(0)" class="text-white text-decoration-none">Dealor Zone<span class="mx-2">|</span></a>
+        <a href="javascript:void(0)" class="text-white text-decoration-none">Supplier Zone<span class="mx-2">|</span></a>
+        <a href="javascript:void(0)" class="text-white text-decoration-none">ITC Group<span class="mx-2">|</span></a>
+        <a href="javascript:void(0)" class="text-white text-decoration-none">Papyra <i class="ri-account-circle-line fs-15 align-middle ms-2"></i></a>
+    </div>
+     <!-- End: navigation -->
+
+    <!-- Start: Header -->
+    <nav class="navbar navbar-expand-lg container" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary fs-25" href="#">LOGO</a>
+         
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">LOGO</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
+                </div>
+                <div class="offcanvas-body">
+                    <form class="search ms-auto">
+                        <input type="text" placeholder="search" class="searchinput" />
+                        <button type="button" class="btn searchbutton"><i class="ri-search-line align-middle"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End: header -->
+
+     <!-- Start: Banner-section -->
+     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/backgrounds/3.jpg"  width="100%" height="100%" class="object-fit-cover"/>
+            <div class="container">
+              <div class="carousel-caption text-start position-relative">
+                <h1>Example headline.</h1>
+                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+
+                <div class="text-bg-primary p-4 information-details">
+                    <h6>HEADING COMES COMES HERE</h6>
+                    <p class="fw-normal fs-12 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus non molestias dolore dolor itaque.</p>
+
+                    <a href="javascript:void(0);" class="text-white text-decoration-none text-uppercase fs-13">LEARN MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/backgrounds/2.jpg"  width="100%" height="100%" class="object-fit-cover"/>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/backgrounds/1.jpg"  width="100%" height="100%" class="object-fit-cover"/>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End: Banner-section -->
+
+    <main class="overflow-hidden">
+
+        <!-- Start: section-1 -->
+        <section class="px-5 company-glance py-5">
+            <h4 class="text-center text-primary mb-4">COMPANY AT GLANCE</h4>
+            <div class="row justify-content-evenly">
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="text-center glance-border">
+                        <span class="glance-icons"><i class="text-primary ri-trophy-line"></i></span>
+                        <p>NO.1 in papaer & Paperboards</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="text-center glance-border">
+                        <span class="glance-icons"><i class="text-primary ri-group-line"></i></span>
+                        <p>30+ B2B Brands</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="text-center">
+                        <span class="glance-icons"><i class="text-primary ri-earth-line"></i></span>
+                        <p>World Class Environmental Performance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: section-1 -->
+
+        <!-- Start: section-2 -->
+        <section class="backgorund-effect px-5 py-5 pb-0">
+            <h4 class="text-center text-white mb-4">OUR NEW PRODUCTS</h4>
+            <div class="row ">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="card product-cards">
+                        <div class="card-body text-center">
+                            <img src="./Images/backgrounds/5.jpg" class="card-img-top card-img-bottom object-fit-cover">
+                        <h6 class="card-title text-uppercase mt-3">FILO SERIES</h6>
+                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, atque!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="card product-cards">
+                        <div class="card-body text-center">
+                            <img src="./Images/backgrounds/7.jpg" class="card-img-top card-img-bottom object-fit-cover">
+                        <h6 class="card-title text-uppercase mt-3">INDOBOWEL</h6>
+                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, atque!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="card product-cards">
+                        <div class="card-body text-center">
+                            <img src="./Images/backgrounds/7.jpg" class="card-img-top card-img-bottom object-fit-cover">
+                        <h6 class="card-title text-uppercase mt-3">OMEGA SERIES</h6>
+                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, atque!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn text-center btn-primary">view more</button>
+            </div>
+        </section>
+        <!-- End: section-2 -->
+
+        <!-- Start: section-3 -->
+        <section class="px-5 py-5">
+                <h4 class="text-center mb-4">EVERYBODY STORIES</h4>
+                <div class="owl-carousel owl-theme">
+                    <div>
+                        <div class="card stories-cards">
+                            <img src="./Images/backgrounds/4.jpg" class="object-fit-cover">
+                            <div class="card-body">
+                            <h5 class="card-title">Unit Badhrachalm</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="javascript:void(0)" class="text-decoration-none">read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card stories-cards">
+                            <img src="./Images/backgrounds/8.jpg" class="object-fit-cover">
+                            <div class="card-body">
+                            <h5 class="card-title">Stay Safe Health</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="javascript:void(0)" class="text-decoration-none">read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card stories-cards">
+                            <img src="./Images/backgrounds/9.jpg" class="object-fit-cover">
+                            <div class="card-body">
+                            <h5 class="card-title">Tree</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <a href="javascript:void(0)" class="text-decoration-none">read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card stories-cards">
+                            <img src="./Images/backgrounds/10.jpg" class="object-fit-cover">
+                            <div class="card-body">
+                            <h5 class="card-title">FiloServe By ITC PSPD</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="javascript:void(0)" class="text-decoration-none">read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more slides as needed -->
+                  </div>    
+        </section>
+        <!-- End: section-3 -->
+
+        <!-- Start: section-4 -->
+        <section class="px-5 text-bg-primary py-4">
+            <h4 class="text-center my-4">INFOCUS</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-radius-0 img-fluid border-3 border-white">
+                        <img src="./Images/backgrounds/6.jpg" class="card-img-top card-img-bottom object-fit-cover">
+                      <div class="card-img-overlay">
+                        <h4 class="card-title text-white text-center">PLANTATIONS</h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-radius-0 img-fluid border-3 border-white">
+                        <img src="./Images/backgrounds/6.jpg" class="card-img-top card-img-bottom object-fit-cover">
+                      <div class="card-img-overlay d-flex">
+                        <h4 class="card-title text-white mx-auto mt-auto text-uppercase">SUBSTAINABILITY</h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-radius-0 img-fluid border-3 border-white">
+                        <img src="./Images/backgrounds/6.jpg" class="card-img-top card-img-bottom object-fit-cover">
+                      <div class="card-img-overlay">
+                        <h4 class="card-title text-white text-center">INNOVIATIONS</h4>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: section-4 -->
+
+        <!-- Start: section-5 -->
+        <section class="py-5 pb-0 hightlight-text">
+            <h4 class="text-center mb-4">HOW WE GROW A SUBSTAINABLE FURTURE</h4>
+            <div class="row px-5">
+                <div class="col-md-6">
+                    <div class="card text-white border-radius-0">
+                        <img src="./Images/backgrounds/5.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay d-flex">
+                         <div class="mt-auto text-end">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card border-radius-0">
+                                <img src="./Images/backgrounds/2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Sustainability Report</h5>
+                                  <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, deleniti?</p>
+                                  <hr>
+                                 <div class="d-flex justify-content-between align-items-center">
+                                    <p class="mb-0">Download the latest report</p>
+                                    <a href="javascript:void(0);" class="text-decoration-none"><i class="ri-arrow-right-line text-bg-primary p-2 rounded-circle"></i></a>
+                                 </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-radius-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">Solid Waste management</h5>
+                                    <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, deleniti?</p>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-0">Click for more details</p>
+                                        <a href="javascript:void(0);" class="text-decoration-none"><i class="ri-arrow-right-line text-bg-primary p-2 rounded-circle"></i></a>
+                                    </div>
+                                </div>
+                                <img src="./Images/backgrounds/2.jpg" class="card-img-bottom" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: section-5 -->
+
+        <!-- Start: section-6 -->
+        <section class="py-5">
+            <h4 class="text-center mb-4">GROUP SITES</h4>
+            <div class="row px-5">
+                <div class="col-xl-3">
+                    <div class="text-center card border-0">
+                        <div class="future-cards card">
+                            <img src="./Images/backgrounds/3.jpg" class="card-img object-fit-cover" alt="...">
+                        </div>
+                        <a href="javascript:void(0);" class="text-muted text-decoration-none fs-16 fw-medium">PORTAL</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="text-center card border-0">
+                        <div class="future-cards card">
+                            <img src="./Images/backgrounds/9.jpg" class="card-img object-fit-cover" alt="...">
+                        </div>
+                        <a href="javascript:void(0);" class="text-muted text-decoration-none fs-16 fw-medium">DEALER ZONE</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="text-center card border-0">
+                        <div class="future-cards card">
+                            <img src="./Images/backgrounds/4.jpg" class="card-img object-fit-cover" alt="...">
+                        </div>
+                        <a href="javascript:void(0);" class="text-muted text-decoration-none fs-16 fw-medium">SUPPLIER ZONE</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="text-center card border-0">
+                        <div class="future-cards card">
+                            <img src="./Images/backgrounds/8.jpg" class="card-img object-fit-cover" alt="...">
+                        </div>
+                        <a href="javascript:void(0);" class="text-muted text-decoration-none fs-16 fw-medium">PAPYRA</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: section-6 -->
+
+        <!-- Start: section-6 -->
+        <section class="border-top border p-5">
+            <div class="row">
+                <div class="col-xl-6">
+                    <h4 class="text-primary"> DIDN'T FIND WHAT YOU'RE LOOKING <span>&#63;</span></h4>
+                    <p class="text-muted fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, reprehenderit labore atque natus quia deserunt. At delectus earum ipsam, adipisci autem itaque qui commodi iure!</p>
+                </div>
+                <div class="col-xl-6 text-end my-auto">
+                    <a class="btn btn-primary btn-lg w-215 d-flex justify-content-between align-items-center ms-auto"><span>Enquire Now</span> <i class="ri-arrow-right-line align-middle"></i></a>
+                </div>
+            </div>
+            <div class="mt-4 mt-sm-0">
+                <h4 class="text-primary quick-links">QUICK LINKS</h4>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspAbout Us</a></p>
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspProduces</a></p>
+                                <p class="fw-medium text-muted"> &gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspPlastic Substitute Products</a></p>
+                              </div>
+                              <div class="col-md-6 col-sm-6">
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspFSC&reg;</a></p>
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspDecors Papers</a></p>
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspResources</a></p>
+                              </div>
+                        </div>  
+                    </div>
+                    <div class="col-md-6 mt-4 mt-sm-0">
+                        <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspPlanatations</a></p>
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspSustainality</a></p>
+                                <p class="fw-medium text-muted">&gt; <a  href="javascript:void(0);" class="text-decoration-none text-black">&nbspInnovations</a></p>
+                              </div>
+                              <div class="col-md-6 col-sm-6">
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspCareers</a></p>
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspConvert it Tool</a></p>
+                                <p class="fw-medium text-muted">&gt; <a href="javascript:void(0);" class="text-decoration-none text-black">&nbspContact Us</a></p>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- End: section-6 -->
+
+    </main>
+
+    <footer>
+        <div class="text-center py-5">
+            <h5 class="text-primary">REGISTERED OFFICE:</h5>
+            <h6>COMPANY NAMES COMES HERE</h6>
+            <p class="mb-2 fw-medium">India Ph : +91 9533057841 &#8739; Corporate Identification Number: 8680022200666</p>
+            <p class="mb-0 fw-medium">Disclamer &#8739; Privacy Policy</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Start: scrolltoup -->
+    <div id="scrollToTopButton">
+        <span class="scroll-icon">
+            <i class="ri-arrow-up-s-line fs-18"></i>
+        </span> 
+    </div>
+    <!-- End: scrolltoup -->
+
+    <!-- Link jQuery and Owl Carousel JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- BOOTSTRAP POPPER MIN JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP MIN JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CUSTOM JS -->
+    <script src="./js/custom.js"></script>
+</body>
+</html>
